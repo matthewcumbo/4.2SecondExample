@@ -14,15 +14,23 @@ ul li{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-table {
+table, table td{
     border:black solid 1px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+/* 
+table {
+
+    border:black solid 4px;
     border-spacing:0px;
     padding:0px;
 }
 
 td {
-    border-top:black solid 1px;
-    border-left:black solid 1px;
+    border-top:black solid 4px;
+    border-left:black solid 4px;
     width:200px;
 }
 
@@ -32,4 +40,4 @@ td {
 
 .firstRow td{
     border-top:0px;
-}
+} */
