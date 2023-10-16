@@ -1,6 +1,8 @@
 *{
-    box-sizing: border-box;
-    padding:0px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+    padding:10px;
     margin:0px;
 }
 
@@ -13,19 +15,21 @@ ul li{
 }
 
 table {
-    /* border:black solid 1px; */
+    border:black solid 1px;
     border-spacing:0px;
+    padding:0px;
 }
 
 td {
     border-top:black solid 1px;
     border-left:black solid 1px;
+    width:200px;
 }
 
-.lastCol{
-    border-right:black solid 1px;
+.firstCol{
+    border-left:0px;
 }
 
-.lastRow{
-    border-bottom:black solid 1px;
+.firstRow td{
+    border-top:0px;
 }
