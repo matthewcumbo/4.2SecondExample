@@ -1,3 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+
 .red{
     color:red;
+}
+
+ul li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table {
+    /* border:black solid 1px; */
+    border-spacing:0px;
+}
+
+td {
+    border-top:black solid 1px;
+    border-left:black solid 1px;
+}
+
+.lastCol{
+    border-right:black solid 1px;
+}
+
+.lastRow{
+    border-bottom:black solid 1px;
 }
