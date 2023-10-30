@@ -1,23 +1,60 @@
+<!-- To create the base structure of an HTML page,
+Type in ! and press enter. -->
+
+<!-- Defines the HTML version we're using. -->
 <!DOCTYPE html>
+
+<!-- Specifies the language of the document. -->
 <html lang="en">
+
+<!-- Page metadata - most of this information is not visible to the user. -->
 <head>
+    <!--
+        The character encoding of this page.
+        UTF-8 is encouraged because it includes all
+        characters used in the world!
+    -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Page title, shown in the browser's tab -->
-    <title>Document</title>
+
+    <!-- The title of this document that appears on the Browser tab. -->
+    <title>My First HTML Page</title>
     
     <!-- Link to our CSS style sheet -->
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
+<!-- Page body - this is what the user will see. -->
 <body>
-    <!-- Primary heading of the page, using a class from the CSS file -->
-    <h1 class="red">Hello World</h1>
+    <!--
+        Most HTML tags need to be opened (<p>) and closed (</p>)
+        if the tag contains any form of text content.
+    -->
+
+    <!-- The H1 tag defines a hierarchical heading. -->
+    <h1>Hello World</h1>
     
     <!-- Sub heading -->
-    <h2>Index.html is always used for the home page.</h2>
+    <h2 class="red">Index.html is always used for the home page.</h2>
     
-    <!-- Simple paragraph for text content -->
+    <!-- P stands for Paragraph - which is a block of text with margin. -->
     <p>This is a basic paragraph to add some content.</p>
+
+    <!-- If we want to add a new section, we add a new P tag. -->
+    <p>
+        Roses are red,
+        <!--
+            If we want to add a new line inside a paragraph,
+            we'll use the break or line break tag.
+
+            Unlike other elements, line breaks do not need a closing tag
+            because they don't feature any text.
+        -->
+        <br>
+        Violets are blue,
+        <br>
+        Why this code works
+        <br>
+        I haven't a clue
+    </p>
 </body>
 </html>

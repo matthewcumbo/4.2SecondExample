@@ -1,21 +1,48 @@
+/*
+    CSS comments are written like this.
+    This is very similar to other programming languages.
+*/
+
+/*
+    * is used to refer to 'everything'. We can then override 
+    certain rules later on.
+*/
 *{
+    /* Some CSS properties need a special prefix to make sure they work on all browsers. */
+    box-sizing: border-box; /* Opera/IE 8+ */
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box; /* Firefox, other Gecko */
-    box-sizing: border-box; /* Opera/IE 8+ */
+
     padding:10px;
     margin:0px;
 }
 
-.red{
-    color:red;
-}
-
+/*
+    Basic CSS can be written using the tag (without brackets)
+    followed by a set of curley brackets. Each command takes up
+    its own line, and is concluded with a semi-colon.
+*/
 ul li{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-table, table td{
+/*
+    We can create a styling rule that is applied to multiple 
+    elements by linking them together with a comma. 
+    
+    We can also target a type of elements that is within
+    another type by adding a space between the types.
+*/
+table, table td, table th{
     border:black solid 1px;
     border-spacing: 0px;
     border-collapse: collapse;
+}
+
+/*
+    Classes are created to have a style rule available within the page
+    which is then applied to specific elements within the HTML document.
+*/
+.red{
+    color:red;
 }
