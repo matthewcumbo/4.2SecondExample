@@ -1,0 +1,56 @@
+/* CSS Reset */
+*{
+    margin:0;
+    padding:0;
+}
+
+.box{
+    border: 2px solid black;
+    /* border property is shorthand for the following
+        border-width:1px;
+        border-color: black;
+        border-style: solid;
+    */
+    width:300px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.big-box{
+    
+    background-color: paleturquoise;
+}
+
+.box-1{
+    background-color: palegreen;
+}
+
+.box-2{
+    background-color: palevioletred;
+}
+
+.small-box{
+    width:auto;
+    margin:20px;
+    margin-top:40px;
+}
+
+/* This selector is used to set up hyperlinks to look like buttons. */
+a{
+    display: block;
+    width:auto;
+    height:100%;
+    color:black;
+    text-decoration: none;
+    padding:20px;
+}
+
+/* Hover override for hyperlinks. 
+The properties here override the same properties from other classes/selectors 
+that are already applied on the same type of element. */
+a:hover{
+    color:gold;
+    background-color: black;
+}
