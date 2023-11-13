@@ -1,0 +1,51 @@
+/* TAGS */
+a {
+    color: #22333B;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#4FB286;
+}
+
+body {
+    background-color: #F2F4F3;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+/* CLASSES */
+.button {
+    background-color: #2F8C62;
+    color: #fff;
+    border:none;
+    border-radius: .25em;
+    padding: .5em .75em;
+}
+
+.button:hover{
+    background-color: #4FB286;
+    color: #fff;
+}
+
+.navbar {
+    border-bottom: 1px solid #22333B;
+    padding: .5em;
+}
+
+.navbar .container {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar-nav li {
+    padding: .5em;
+    margin: 0 .5em;
+}
