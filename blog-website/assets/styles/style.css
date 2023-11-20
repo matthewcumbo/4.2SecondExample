@@ -14,7 +14,55 @@ body {
     line-height: 1.5;
 }
 
+h1, h2, h3, h4, h5, h6{
+    margin-bottom: 1em;
+}
+
+footer{
+    background-color: #22333B;
+    color:#F2F4F3;
+    font-size:.9em;
+    margin-top: 4em;
+    padding:1.11em 0;
+}
+
 /* CLASSES */
+.blog-post header{
+    text-align: center;
+    margin-top: 4em;
+}
+
+.blog-post header h5{
+    text-transform:uppercase;
+}
+
+.blog-post header h1 {
+    text-transform: capitalize;
+}
+
+.blog-post .image{
+    margin-top:2em;
+    margin-bottom:2em
+}
+
+.rounded-image img{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.subtitle{
+    margin-top : 2em;
+}
+
+.summary {
+    padding-left:40px;
+}
+
+.summary li {
+    margin-top: 1em;
+}
+
 .button {
     background-color: #2F8C62;
     color: #fff;
