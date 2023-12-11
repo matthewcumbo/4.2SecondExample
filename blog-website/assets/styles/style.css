@@ -97,3 +97,124 @@ footer{
     padding: .5em;
     margin: 0 .5em;
 }
+
+.contact-form label, 
+.contact-form input, 
+.contact-form select,
+.contact-form textarea{
+    display: block;
+    width: 100%;
+}
+
+.contact-form label{
+    margin-bottom: 0.5em;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    border: 1px solid #22333B;
+    padding: .5em;
+    border-radius: 8px;
+}
+
+.contact-form :invalid{
+    border-color:#ff0000;
+    color:#ff0000;
+}
+
+.contact-form :invalid::placeholder{
+    color:#ff0000;
+}
+
+.contact-form button{
+    cursor: pointer;
+    padding:.8em;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+.contact-form button.clear{
+    background-color: #f00;
+}
+
+.contact-form button.clear:hover{
+    background-color: #cc0000;
+}
+
+.contact-details hr{
+    border:none;
+    border-top: 1px solid #22333B;
+    margin: 2em 0;
+}
+
+.contact-details h3 {
+    margin-top: .5em;
+}
+
+.contact-details p {
+    margin:0;
+}
+
+
+
+.blog-list article{
+    margin-bottom:2em;
+}
+
+.blog-list article h2{
+    margin-bottom: .5em;
+}
+
+.blog-list article p{
+    margin: 1em 0;
+}
+
+.blog-list article .read-more{
+    display: block;
+    text-align: right;
+}
+
+.blog-sidebar h4{
+    text-transform: uppercase;
+    margin: 1em 0 .25em;
+}
+
+.blog-sidebar p{
+    margin:0;
+}
+
+.trending-list{
+    list-style: none;
+    counter-reset: trending;
+    padding-left:2em;
+}
+
+.trending-list li {
+    counter-increment: trending;
+    position: relative;
+    margin-bottom: 1.5em;
+}
+
+.trending-list li::before{
+    color: #a1a3a5;
+    display: block;
+    position: absolute;
+    content: counter(trending);
+    font-size: 1.5em;
+    font-weight: bold;
+    left:-1.25em;
+}
+
+.trending-list a{
+    display: block;
+    padding: 10px;
+    border: 1px solid transparent;
+}
+
+.trending-list a:hover{
+    color:#000;
+    border-color:#a1a3a5;
+    background-color: #ebebeb;
+    border-radius: 8px;
+}

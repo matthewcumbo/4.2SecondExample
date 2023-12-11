@@ -78,10 +78,6 @@
     width: calc(11 / 12 * 100% - 1rem);
 }
 
-.container .row .col-2{
-    width: calc(2 / 12 * 100% - 1rem);
-}
-
 .container .row .col-12{
     width: calc(12 / 12 * 100% - 1rem);
 }
