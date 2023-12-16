@@ -218,3 +218,40 @@ footer{
     background-color: #ebebeb;
     border-radius: 8px;
 }
+
+
+
+.jumbotron {
+    background-image: url(../images/darktide.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30em;
+    margin-bottom: 2em;
+    position: relative;
+}
+.jumbotron h1 {
+    background-color: #ffffff;
+    bottom: 0;
+    margin: .5em;
+    padding: .25em .5em;
+    position: absolute;
+}
+
+figure{
+    height:100%;
+    overflow: hidden;
+}
+
+.about-image img{
+    height:90%;
+    width:auto;
+    position: relative;
+    transform: translateX(-43%);
+}
+
+.about-image figcaption, .image figcaption {
+    font-size: .75em;
+    margin-top: .5em;
+    text-align: center;
+}
